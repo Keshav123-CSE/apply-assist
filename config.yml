@@ -1,0 +1,67 @@
+# General Configuration for Apply-Assist
+
+# Matching & Filter Rules
+filters:
+  max_posting_age_days: 30
+  paid_only: true
+  allowed_locations:
+    - "remote"
+    - "india"
+    - "bengaluru"
+    - "bangalore"
+    - "hyderabad"
+    - "pune"
+    - "gurgaon"
+    - "gurugram"
+    - "noida"
+    - "mumbai"
+    - "delhi"
+    - "chennai"
+  allowed_levels:
+    - "intern"
+    - "internship"
+    - "trainee"
+    - "entry"
+    - "fresher"
+    - "junior"
+    - "graduate"
+    - "sde-1"
+    - "sde 1"
+    - "software engineer 1"
+  disallowed_levels:
+    - "senior"
+    - "sr."
+    - "lead"
+    - "principal"
+    - "staff"
+    - "director"
+    - "manager"
+    - "vp"
+    - "head of"
+  target_role_keywords:
+    - "software"
+    - "sde"
+    - "full stack"
+    - "fullstack"
+    - "backend"
+    - "frontend"
+    - "gen ai"
+    - "generative ai"
+    - "ai engineer"
+    - "machine learning intern"
+    - "python developer"
+
+# LLM Configuration
+llm:
+  provider: "gemini"
+  model: "gemini-1.5-flash"
+  temperature: 0.1
+  max_output_tokens: 1024
+
+# Application & Browser Automation
+automation:
+  daily_application_cap: 10
+  dry_run_default: true
+  browser_profile_dir: ".browser_profile"
+  headless: false
+  navigation_timeout_ms: 30000

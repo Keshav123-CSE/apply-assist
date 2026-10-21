@@ -1,0 +1,33 @@
+# apply-assist: Git Ignore
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# User Private Data (CRITICAL: Never commit personal info)
+resume/
+profile.yml
+*.sqlite3
+*.db
+data/
+downloads/
+screenshots/
+
+# Playwright Browser User Data & Sessions
+.browser_profile/
+.playwright_state/

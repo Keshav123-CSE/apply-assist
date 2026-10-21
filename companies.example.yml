@@ -1,0 +1,33 @@
+# Sample monitored companies hosted on supported public ATS job boards
+# Supported ATS types: greenhouse, lever, ashby, workable
+
+companies:
+  - name: "Postman"
+    ats: "greenhouse"
+    board_token: "postman"
+    careers_url: "https://www.postman.com/company/careers/"
+
+  - name: "Figma"
+    ats: "greenhouse"
+    board_token: "figma"
+    careers_url: "https://www.figma.com/careers/"
+
+  - name: "GitLab"
+    ats: "greenhouse"
+    board_token: "gitlab"
+    careers_url: "https://about.gitlab.com/jobs/"
+
+  - name: "Automattic"
+    ats: "workable"
+    board_token: "automattic"
+    careers_url: "https://automattic.com/work-with-us/"
+
+  - name: "Docker"
+    ats: "lever"
+    board_token: "docker"
+    careers_url: "https://www.docker.com/careers/"
+
+  - name: "Ramp"
+    ats: "ashby"
+    board_token: "ramp"
+    careers_url: "https://ramp.com/careers"

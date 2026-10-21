@@ -1,0 +1,87 @@
+# profile.example.yml
+# Single source of truth for all applications.
+# Nothing will EVER be claimed in any resume, cover note, or form that is not explicitly in this file.
+
+contact:
+  full_name: "Aarav Sharma"
+  email: "aarav.sharma@example.com"
+  phone: "+91 98765 43210"
+  location: "Bengaluru, Karnataka, India"
+  github: "https://github.com/aarav-sharma"
+  linkedin: "https://linkedin.com/in/aaravsharma"
+  portfolio: "https://aaravsharma.dev"
+
+education:
+  - degree: "Bachelor of Technology in Computer Science & Engineering"
+    institution: "National Institute of Technology"
+    location: "India"
+    current_year: "2nd Year"
+    grad_year: 2027
+    gpa: "8.8/10.0"
+
+skills:
+  languages:
+    - "Python"
+    - "TypeScript"
+    - "JavaScript"
+    - "C++"
+    - "SQL"
+  frameworks_and_libraries:
+    - "FastAPI"
+    - "React"
+    - "Node.js"
+    - "Next.js"
+    - "PyTorch"
+    - "LangChain"
+  databases:
+    - "PostgreSQL"
+    - "SQLite"
+    - "Redis"
+    - "Qdrant"
+  tools_and_platforms:
+    - "Git"
+    - "Docker"
+    - "Linux"
+    - "GitHub Actions"
+  core_competencies:
+    - "Data Structures & Algorithms"
+    - "Object-Oriented Programming"
+    - "REST API Design"
+    - "LLM Prompt Engineering"
+    - "RAG Architectures"
+
+projects:
+  - title: "DocuSense - Gen AI Retrieval Augmented Search"
+    role: "Sole Creator"
+    tech_stack: ["Python", "FastAPI", "LangChain", "Qdrant", "React"]
+    repo_url: "https://github.com/aarav-sharma/docusense"
+    live_url: "https://docusense.example.com"
+    bullets:
+      - "Engineered an open-source semantic search and Q&A engine over technical PDF documentation using dense embeddings."
+      - "Implemented hybrid search combining vector retrieval with BM25 keyword matching, reducing retrieval hallucination rate by 35%."
+      - "Built an asynchronous FastAPI backend serving streaming answers with sub-800ms time-to-first-token."
+
+  - title: "Distributed Task Queue"
+    role: "Developer"
+    tech_stack: ["Python", "Redis", "SQLite"]
+    repo_url: "https://github.com/aarav-sharma/task-queue"
+    bullets:
+      - "Designed a lightweight distributed worker queue in Python with exponential backoff retries and dead-letter queue."
+      - "Achieved safe concurrency using Redis atomic primitives and transaction isolation."
+
+experience:
+  - company: "Open Source Contributor"
+    role: "Contributor"
+    period: "2023 - Present"
+    location: "Remote"
+    bullets:
+      - "Contributed bug fixes and documentation enhancements to Python developer tooling repositories."
+      - "Authored comprehensive test suites raising test coverage by 15% across core modules."
+
+canned_answers:
+  notice_period: "Immediate (0 days)"
+  willing_to_relocate: "Yes, for internships in Bengaluru, Hyderabad, Pune, or Gurgaon; remote preferred."
+  work_authorization_india: "Yes, citizen of India authorized to work with no visa sponsorship required."
+  current_role: "2nd Year Undergraduate Student, B.Tech CSE"
+  salary_expectations: "Standard company intern stipend"
+  why_interested: "I want to apply my foundational computer science training, hands-on FastAPI, and Gen AI / full-stack experience to build reliable, high-impact software systems alongside experienced engineers."
